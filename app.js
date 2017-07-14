@@ -45,7 +45,7 @@ app.post('/api/qbsearch.do', function(req, res) {
             throw err;
         } else {
             var result = QBResult.genResult(Song);
-            console.log(result);
+            //console.log(result);
             res.send(result);
         }
 

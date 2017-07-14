@@ -39,5 +39,7 @@ module.exports.addAlbum = function(Album, callback) {
 };
 
 module.exports.findAlbum = function(albumID, callback) {
+    //var result = album.find({ 'albumID': albumID });
+    //console.log(result.albumName);
     album.find({ 'albumID': albumID }, callback);
 };
