@@ -1,0 +1,22 @@
+{
+  "name": "musicInfo",
+  "version": "2.5.7",
+  "description": "云音乐数据",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "云音乐数据入库"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "^4.15.2",
+    "mongoose": "*",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0",
+    "request-promise": "*",
+    "yog-log": "^0.1.3"
+  }
+}
