@@ -43,3 +43,9 @@ module.exports.findAlbum = function(albumID, callback) {
     //console.log(result.albumName);
     album.find({ 'albumID': albumID }, callback);
 };
+
+module.exports.updateAlbum = function(Album, callback) {
+    //var result = album.find({ 'albumID': albumID });
+    //console.log(result.albumName);
+    album.update({ 'albumID': Album.albumID }, Album, { upsert: true }, callback);
+};
