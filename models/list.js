@@ -21,9 +21,17 @@ module.exports.addList = function(List, callback) {
 module.exports.findList = function(listIdx, callback) {
     //var result = album.find({ 'albumID': albumID });
     //console.log(result.albumName);
+<<<<<<< HEAD
     list.find({ 'listIdx': listIdx, 'inUse': '1' }, callback).sort({'songIndex': 1});
+=======
+    list.find({ 'listIdx': listIdx }, callback);
+>>>>>>> origin/master
 };
 
 module.exports.removeList = function(listIdx, callback) {
     list.remove({ 'listIdx': listIdx }, callback);
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> origin/master

@@ -74,4 +74,8 @@ module.exports.updateSonginUse = function(Song, callback) {
 
 module.exports.updateSonginfo = function(Song, callback) {
     song.update({ 'songID': Song.songID }, Song, { upsert: true }, callback);
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> origin/master

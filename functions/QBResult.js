@@ -58,7 +58,11 @@ module.exports.genInfo = function(song, album) {
                 "playurl": "http://" + song.locate + ".a-radio.cn:81/" + song.md5 + ".mp3",
                 //"ineturl": "http://sh.a-radio.cn:3000/100/" + song.md5 + ".mp3",
                 //"localurl": "http://sh.a-radio.cn:3000/100/" + song.md5 + ".mp3",
+<<<<<<< HEAD
                 "duration": duration
+=======
+                "duration": duration,
+>>>>>>> origin/master
                 //"words": "文字内容",
                 //"prewords": "串词",
                 //"encoder": "aac",
@@ -73,10 +77,17 @@ module.exports.genInfo = function(song, album) {
             "fileid": '5253d2b70ef116f7c5b142e7',
             "details": {
                 "_id": '5253d2b70ef116f7c5b142e7',
+<<<<<<< HEAD
                 "url": album.picUrl
                 //"playurl": album.picUrl
                 //"ineturl": Album[0].picUrl,
                 //"localurl": Album[0].picUrl
+=======
+                "url": album.picUrl,
+                //"playurl": album.picUrl
+                    //"ineturl": Album[0].picUrl,
+                    //"localurl": Album[0].picUrl
+>>>>>>> origin/master
             }
         }]
     };
