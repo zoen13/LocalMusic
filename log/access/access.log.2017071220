@@ -1,3 +1,0 @@
-::ffff:118.178.129.63 - - [12/Jul/2017:20:00:40 ] "GET /api/qblist.do?userid=&count=10&channel=5003&maxtime=0&mintime=0&type=&secret=6b66583d-a8d4-4c75-a9a2-402bb19127a1 HTTP/1.1" 200 192542 - - Jakarta Commons-HttpClient/3.1 523.540
-::ffff:118.178.129.63 - - [12/Jul/2017:20:01:04 ] "GET /api/qblist.do?userid=&count=10&channel=5003&maxtime=0&mintime=0&type=&secret=6b66583d-a8d4-4c75-a9a2-402bb19127a1 HTTP/1.1" 200 187925 - - Jakarta Commons-HttpClient/3.1 158.944
-::ffff:120.55.126.87 - - [12/Jul/2017:20:05:11 ] "GET /api/qblist.do?userid=57a7fee40cf2d287f021cd2f&count=20&channel=1101%2C2006&maxtime=0&mintime=0&type=&secret=ee6bf92c-9f5e-4222-af97-df1ab3c4ccf2 HTTP/1.1" 200 198465 - - Jakarta Commons-HttpClient/3.1 943.719
